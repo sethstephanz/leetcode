@@ -1,4 +1,4 @@
-def convert_digits_to_binary(array):
+def convert_digits_to_binary(self, array):
     """
     Given 0s and 1s in an array, convert to number
     """
