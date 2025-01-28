@@ -1,8 +1,6 @@
 def reverse_linked_list(self, head):
     """
     Reverse a linked list. NRMR: next, reverse, move, repeat
-    Save node, reverse current link, move prev to current node, move curr to next node.
-    Return prev at end, not head.
     """
 
     if not head:
@@ -12,9 +10,9 @@ def reverse_linked_list(self, head):
     prev = None
 
     while curr:
-        nxt = curr.next
-        curr.next = prev
-        prev = curr
-        curr = nxt
+        nxt = curr.next     # n: save next node
+        curr.next = prev    # r: reverse the link
+        prev = curr         # m: move prev to curr
+        curr = nxt          # r: move curr to next
 
     return prev
