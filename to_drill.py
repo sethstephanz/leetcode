@@ -1,5 +1,6 @@
 from collections import deque
 from functools import lru_cache
+from collections import defaultdict
 
 ##################################################
 # day 1: sliding window
@@ -175,13 +176,14 @@ def search_rotated(arr, target):
 
 @lru_cache(None)
 def fibonacci(n):
-    # fibonacci (memoization + bottom-up)
+   # fibonacci, recursive
     if n <= 1:
         return n
     return fibonacci(n-1) + fibonacci(n-2)
 
 
 def fibonacci_bottom_up(n):
+    # fibonacci, dp (memoization + bottom-up)
     if n <= 1:
         return n
     dp = [0] * (n + 1)
@@ -253,6 +255,35 @@ def num_islands(grid):
     return count
 
 # djikstra's algo (shortest path)
+
+
+def create_ad_list(binary_graph):
+    # create adjacency list from list of edges
+    # map each node to all of its neighbors
+    graph = defaultdict(list)
+    for u, v in binary_graph:
+        graph[u].append(v)
+        graph[v].append(u)
+
+    return graph
+
+
+def validPath(edges, start, end):
+    ad_list = create_ad_list(edges)
+    visited = set()
+
+    def dfs(node):
+        if node == end:  # found path
+            return True
+        visited.add(node)
+
+        # traverse neighbors
+        for neighbor in ad_list[node]:
+            if neighbor not in visited and dfs(neighbor):
+                return True
+            return False  # path not found
+
+        return dfs(start)
 
 ##################################################
 # day 6: sort, two-pointer
