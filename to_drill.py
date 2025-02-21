@@ -6,6 +6,8 @@ from collections import defaultdict
 # mon: sliding window
 ##################################################
 
+# easy
+# medium
 
 def max_sum_subarray(arr, k):
     # fixed size sliding window
@@ -35,6 +37,8 @@ def longest_substr_k_distinct(s, k):
 # tues: linked list (reversals and cycles)
 ##################################################
 
+# easy
+# medium
 
 class ListNode:
     def __init__(self, val=0, next=None):
@@ -88,6 +92,8 @@ def merge_two_lists(l1, l2):
 # wed: bin search
 ##################################################
 
+# easy
+# medium
 
 def bin_search(nums, target):
     # binary search, iterative
@@ -173,6 +179,8 @@ def search_rotated(arr, target):
 # thurs: dynamic programming
 ##################################################
 
+# easy
+# medium
 
 @lru_cache(None)
 def fibonacci(n):
@@ -208,7 +216,37 @@ def climb_stairs(n):
 ##################################################
 # fri: graphs and trees (bfs/dfs)
 ##################################################
+# easy
+# trees
+https://leetcode.com/problems/invert-binary-tree/description/
+https://leetcode.com/problems/binary-search/description/
+https://leetcode.com/problems/balanced-binary-tree/description/
+https://leetcode.com/problems/maximum-depth-of-binary-tree/description/
+https://leetcode.com/problems/maximum-depth-of-binary-tree/description/
+https://leetcode.com/problems/diameter-of-binary-tree/description/
 
+# graphs
+https://leetcode.com/problems/find-if-path-exists-in-graph/description/
+https://leetcode.com/problems/flood-fill/description/
+
+
+# medium
+# trees
+https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/
+https://leetcode.com/problems/validate-binary-search-tree/description/
+https://leetcode.com/problems/binary-tree-right-side-view/description/
+https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/
+https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/
+
+# graphs
+https://leetcode.com/problems/number-of-islands/description/
+https://leetcode.com/problems/01-matrix/description/
+https://leetcode.com/problems/course-schedule/description/
+https://leetcode.com/problems/clone-graph/description/
+https://leetcode.com/problems/rotting-oranges/description/
+https://leetcode.com/problems/accounts-merge/description/
+https://leetcode.com/problems/word-search/description/
+https://leetcode.com/problems/minimum-height-trees/description/
 
 def bfs(graph, start):
     # bfs graph traversal
@@ -232,15 +270,20 @@ def dfs(graph, start, visited=set()):
 
 
 def num_islands(grid):
-    # find number of islands (bfs/dfs)
+    # find number of islands (dfs)
     if not grid:
         return 0
+    
     rows, cols, count = len(grid), len(grid[0]), 0
-
+    
     def dfs(r, c):
+        # bounds check
         if r < 0 or r >= rows or c < 0 or c >= cols or grid[r][c] != '1':
             return
+       
         grid[r][c] = '0'
+       
+        # run dfs on each direction
         dfs(r+1, c)
         dfs(r-1, c)
         dfs(r, c+1)
@@ -289,6 +332,8 @@ def validPath(edges, start, end):
 # sat: sort, two-pointer
 ##################################################
 
+# easy
+# medium
 
 def quick_sort(arr):
     # quick sort
@@ -343,6 +388,8 @@ def move_zeros(nums):
 # sun: recursion and backtracking
 ##################################################
 
+# easy
+# medium
 
 def subsets(nums):
     # generate all subsets (O(2^n))
