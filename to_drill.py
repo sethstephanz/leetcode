@@ -3,7 +3,7 @@ from functools import lru_cache
 from collections import defaultdict
 
 ##################################################
-# day 1: sliding window
+# mon: sliding window
 ##################################################
 
 
@@ -32,7 +32,7 @@ def longest_substr_k_distinct(s, k):
 
 
 ##################################################
-# day 2: linked list (reversals and cycles)
+# tues: linked list (reversals and cycles)
 ##################################################
 
 
@@ -85,7 +85,7 @@ def merge_two_lists(l1, l2):
 
 
 ##################################################
-# day 3: bin search
+# wed: bin search
 ##################################################
 
 
@@ -170,7 +170,7 @@ def search_rotated(arr, target):
     return -1  # Target not found
 
 ##################################################
-# day 4: dynamic programming
+# thurs: dynamic programming
 ##################################################
 
 
@@ -206,7 +206,7 @@ def climb_stairs(n):
 
 
 ##################################################
-# day 5: graphs and trees (bfs/dfs)
+# fri: graphs and trees (bfs/dfs)
 ##################################################
 
 
@@ -286,7 +286,7 @@ def validPath(edges, start, end):
         return dfs(start)
 
 ##################################################
-# day 6: sort, two-pointer
+# sat: sort, two-pointer
 ##################################################
 
 
@@ -340,7 +340,7 @@ def move_zeros(nums):
 
 
 ##################################################
-# day 7: recursion and backtracking
+# sun: recursion and backtracking
 ##################################################
 
 
