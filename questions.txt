@@ -1,0 +1,131 @@
+##################################################
+# mon: sliding window
+##################################################
+
++-------+
+| easy  |
++-------+
++-------+
+| med   |
++-------+
++-------+
+| hard  |
++-------+
+
+
+##################################################
+# tues: linked list (reversals and cycles)
+##################################################
+
++-------+
+| easy  |
++-------+
++-------+
+| med   |
++-------+
++-------+
+| hard  |
++-------+
+
+
+##################################################
+# wed: bin search
+##################################################
+
++-------+
+| easy  |
++-------+
++-------+
+| med   |
++-------+
++-------+
+| hard  |
++-------+
+
+##################################################
+# thurs: dynamic programming
+##################################################
+
++-------+
+| easy  |
++-------+
++-------+
+| med   |
++-------+
++-------+
+| hard  |
++-------+
+
+
+##################################################
+# fri: graphs and trees (bfs/dfs)
+##################################################
+
++-------+
+| easy  |
++-------+
+# trees
+# https://leetcode.com/problems/invert-binary-tree/description/
+# https://leetcode.com/problems/binary-search/description/
+# https://leetcode.com/problems/balanced-binary-tree/description/
+# https://leetcode.com/problems/maximum-depth-of-binary-tree/description/
+# https://leetcode.com/problems/maximum-depth-of-binary-tree/description/
+# https://leetcode.com/problems/diameter-of-binary-tree/description/
+
+# graphs
+# https://leetcode.com/problems/find-if-path-exists-in-graph/description/
+# https://leetcode.com/problems/flood-fill/description/
+
+
++-------+
+| med   |
++-------+
+# trees
+# https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/
+# https://leetcode.com/problems/validate-binary-search-tree/description/
+# https://leetcode.com/problems/binary-tree-right-side-view/description/
+# https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/
+# https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/
+
+# graphs
+# https://leetcode.com/problems/number-of-islands/description/
+# https://leetcode.com/problems/01-matrix/description/
+# https://leetcode.com/problems/course-schedule/description/
+# https://leetcode.com/problems/clone-graph/description/
+# https://leetcode.com/problems/rotting-oranges/description/
+# https://leetcode.com/problems/accounts-merge/description/
+# https://leetcode.com/problems/word-search/description/
+# https://leetcode.com/problems/minimum-height-trees/description/
+
++-------+
+| hard  |
++-------+
+
+
+##################################################
+# sat: sort, two-pointer
+##################################################
++-------+
+| easy  |
++-------+
++-------+
+| med   |
++-------+
++-------+
+| hard  |
++-------+
+
+
+
+##################################################
+# sun: recursion and backtracking
+##################################################
++-------+
+| easy  |
++-------+
++-------+
+| med   |
++-------+
++-------+
+| hard  |
++-------+
