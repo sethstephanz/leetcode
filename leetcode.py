@@ -1,7 +1,6 @@
+from functools import lru_cache
 from typing import List
-from collections import defaultdict
-from collections import Counter
-from collections import deque
+from collections import defaultdict, Counter, deque
 import heapq
 import itertools
 

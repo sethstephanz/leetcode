@@ -1,3 +1,9 @@
+from functools import lru_cache
+from typing import List
+from collections import defaultdict, Counter, deque
+import heapq
+import itertools
+
 def reverse_linked_list(self, head):
     """
     Reverse a linked list. NRMR: next, reverse, move, repeat
