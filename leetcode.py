@@ -1,6 +1,7 @@
 from typing import List
 from collections import defaultdict
 from collections import Counter
+from collections import deque
 import heapq
 import itertools
 
@@ -21,4 +22,3 @@ arg1 = 1
 
 
 print(solution.my_func(arg0, arg1))
-
