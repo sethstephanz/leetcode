@@ -1,37 +1,6 @@
 ##################################################
-# mon: sliding window
+# sliding window
 ##################################################
-
-+-------+
-| easy  |
-+-------+
-+-------+
-| med   |
-+-------+
-+-------+
-| hard  |
-+-------+
-
-
-##################################################
-# tues: linked list (reversals and cycles)
-##################################################
-
-+-------+
-| easy  |
-+-------+
-+-------+
-| med   |
-+-------+
-+-------+
-| hard  |
-+-------+
-
-
-##################################################
-# wed: bin search
-##################################################
-
 +-------+
 | easy  |
 +-------+
@@ -43,9 +12,8 @@
 +-------+
 
 ##################################################
-# thurs: dynamic programming
+# linked list (reversals and cycles)
 ##################################################
-
 +-------+
 | easy  |
 +-------+
@@ -56,38 +24,44 @@
 | hard  |
 +-------+
 
-
 ##################################################
-# fri: graphs and trees (bfs/dfs)
+# bin search
 ##################################################
-
 +-------+
 | easy  |
 +-------+
-# trees
-# https://leetcode.com/problems/invert-binary-tree/description/
-# https://leetcode.com/problems/binary-search/description/
-# https://leetcode.com/problems/balanced-binary-tree/description/
-# https://leetcode.com/problems/maximum-depth-of-binary-tree/description/
-# https://leetcode.com/problems/maximum-depth-of-binary-tree/description/
-# https://leetcode.com/problems/diameter-of-binary-tree/description/
++-------+
+| med   |
++-------+
++-------+
+| hard  |
++-------+
 
+##################################################
+# dynamic programming
+##################################################
++-------+
+| easy  |
++-------+
++-------+
+| med   |
++-------+
++-------+
+| hard  |
++-------+
+
+##################################################
 # graphs
+##################################################
++-------+
+| easy  |
++-------+
 # https://leetcode.com/problems/find-if-path-exists-in-graph/description/
 # https://leetcode.com/problems/flood-fill/description/
 
-
 +-------+
 | med   |
 +-------+
-# trees
-# https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/
-# https://leetcode.com/problems/validate-binary-search-tree/description/
-# https://leetcode.com/problems/binary-tree-right-side-view/description/
-# https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/
-# https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/
-
-# graphs
 # https://leetcode.com/problems/number-of-islands/description/
 # https://leetcode.com/problems/01-matrix/description/
 # https://leetcode.com/problems/course-schedule/description/
@@ -101,9 +75,34 @@
 | hard  |
 +-------+
 
+##################################################
+# trees
+##################################################
++-------+
+| easy  |
++-------+
+# https://leetcode.com/problems/invert-binary-tree/description/
+# https://leetcode.com/problems/binary-search/description/
+# https://leetcode.com/problems/balanced-binary-tree/description/
+# https://leetcode.com/problems/maximum-depth-of-binary-tree/description/
+# https://leetcode.com/problems/maximum-depth-of-binary-tree/description/
+# https://leetcode.com/problems/diameter-of-binary-tree/description/
+
++-------+
+| med   |
++-------+
+# https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/
+# https://leetcode.com/problems/validate-binary-search-tree/description/
+# https://leetcode.com/problems/binary-tree-right-side-view/description/
+# https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/
+# https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/
+
++-------+
+| hard  |
++-------+
 
 ##################################################
-# sat: sort, two-pointer
+# two-pointer
 ##################################################
 +-------+
 | easy  |
@@ -115,10 +114,21 @@
 | hard  |
 +-------+
 
-
+##################################################
+# general recursion
+##################################################
++-------+
+| easy  |
++-------+
++-------+
+| med   |
++-------+
++-------+
+| hard  |
++-------+
 
 ##################################################
-# sun: recursion and backtracking
+# backtracking
 ##################################################
 +-------+
 | easy  |
