@@ -1,3 +1,8 @@
+https://leetcode.com/studyplan/top-interview-150/   # leetcode 150  
+https://neetcode.io/practice?tab=neetcode150        # neetcode 150
+https://leetcode.com/problem-list/oizxjoit/         # blind 75
+https://leetcode.com/problem-list/rab78cw1/         # grind 75
+
 ##################################################
 # sliding window
 ##################################################
@@ -107,12 +112,22 @@
 +-------+
 | easy  |
 +-------+
+https://leetcode.com/problems/valid-palindrome/description/
+
 +-------+
 | med   |
 +-------+
+https://leetcode.com/problems/container-with-most-water/description/
+https://leetcode.com/problems/3sum/description/
+https://leetcode.com/problems/longest-palindromic-substring/description/
+https://leetcode.com/problems/subarray-product-less-than-k/description/
+https://leetcode.com/problems/4sum/description/
+
 +-------+
 | hard  |
 +-------+
+https://leetcode.com/problems/trapping-rain-water/description/
+
 
 ##################################################
 # general recursion
