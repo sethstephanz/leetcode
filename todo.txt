@@ -1,0 +1,4 @@
+bisect
+Lucas' algorithm
+enumerate()
+directed graphs
