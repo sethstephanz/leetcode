@@ -17,6 +17,12 @@ https://leetcode.com/problems/contains-duplicate-ii/description/?envType=problem
 +-------+
 https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
 https://leetcode.com/problems/permutation-in-string/description/?envType=problem-list-v2&envId=sliding-window
+https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/description/
+https://leetcode.com/problems/minimum-size-subarray-sum/description/
+https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/description/
+https://leetcode.com/problems/fruit-into-baskets/description/
+https://leetcode.com/problems/longest-repeating-character-replacement/description/
+https://leetcode.com/problems/max-consecutive-ones-iii/description/
 
 +-------+
 | hard  |
