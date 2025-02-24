@@ -9,12 +9,19 @@ https://leetcode.com/problem-list/rab78cw1/         # grind 75
 +-------+
 | easy  |
 +-------+
+https://leetcode.com/problems/maximum-average-subarray-i/description/?envType=problem-list-v2&envId=sliding-window
+https://leetcode.com/problems/contains-duplicate-ii/description/?envType=problem-list-v2&envId=sliding-window
+
 +-------+
 | med   |
 +-------+
+https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
+https://leetcode.com/problems/permutation-in-string/description/?envType=problem-list-v2&envId=sliding-window
+
 +-------+
 | hard  |
 +-------+
+https://leetcode.com/problems/minimum-window-substring/description/
 
 ##################################################
 # linked list (reversals and cycles)
