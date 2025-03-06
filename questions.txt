@@ -64,6 +64,8 @@ https://leetcode.com/problems/minimum-window-substring/description/
 +-------+
 | med   |
 +-------+
+https://leetcode.com/problems/minimum-path-sum/?envType=problem-list-v2&envId=dynamic-programming
+
 +-------+
 | hard  |
 +-------+
