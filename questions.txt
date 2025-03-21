@@ -76,8 +76,8 @@ https://leetcode.com/problems/minimum-path-sum/?envType=problem-list-v2&envId=dy
 +-------+
 | easy  |
 +-------+
-# https://leetcode.com/problems/find-if-path-exists-in-graph/description/
-# https://leetcode.com/problems/flood-fill/description/
+https://leetcode.com/problems/find-if-path-exists-in-graph/description/
+https://leetcode.com/problems/flood-fill/description/
 
 +-------+
 | med   |
