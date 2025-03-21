@@ -217,7 +217,6 @@ def bfs(graph, start):
     while queue:
         node = queue.popleft()
         if node not in visited:
-            print(node, end=" ")
             visited.add(node)
             queue.extend(graph[node])
 
@@ -225,7 +224,6 @@ def bfs(graph, start):
 def dfs(graph, start, visited=set()):
     # dfs graph traversal
     if start not in visited:
-        print(start, end=" ")
         visited.add(start)
         for neighbor in graph[start]:
             dfs(graph, neighbor, visited)
