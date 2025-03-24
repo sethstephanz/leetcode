@@ -7,3 +7,4 @@ zip()
 unionfind
 lexicographical sorting
 topological sort
+prefix sum
