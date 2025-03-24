@@ -1,4 +1,9 @@
+(in no particular order)
 bisect
 Lucas' algorithm
 enumerate()
 directed graphs
+zip()
+unionfind
+lexicographical sorting
+topological sort
