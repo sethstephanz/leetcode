@@ -4,7 +4,35 @@ from collections import defaultdict, Counter, deque
 import heapq
 import itertools
 
-def reverse_linked_list(self, head):
+# Setup
+############################################################
+
+
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
+def list_to_ll(self, my_list):
+    """
+    For testing LL questions locally: Convert list of ints to 
+    linked list (Leetcode does something like this behind the scenes).
+    """
+    dummy = ListNode()
+    head = ListNode()
+    dummy.next = head
+
+    for n in range(len(my_list)):
+        new_node = ListNode(my_list[n])
+        head.next = new_node
+        head = head.next
+
+    return dummy.next  
+
+# Setup
+############################################################
+
+def reverse_ll(self, head):
     """
     Reverse a linked list. NRMR: next, reverse, move, repeat
     """
