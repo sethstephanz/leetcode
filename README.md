@@ -1,2 +1,2 @@
 # leetcode
-Leetcode stuff
+Leetcode stuff (in Python)
