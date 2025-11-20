@@ -7,6 +7,16 @@ import itertools
 import math
 from bisect import bisect_left, insort
 
+"""
+In:
+Out:
+Defs:
+TODO:
+Pattern:
+Strat:
+Examples:
+"""
+
 
 class Solution:
     def my_func(self, arg0: int, arg1: int) -> int:
