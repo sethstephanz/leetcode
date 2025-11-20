@@ -3,7 +3,6 @@ https://neetcode.io/practice?tab=neetcode150        # neetcode 150
 https://leetcode.com/problem-list/oizxjoit/         # blind 75
 https://leetcode.com/problem-list/rab78cw1/         # grind 75
     
-test
 
 ##################################################
 # sliding window
@@ -50,12 +49,25 @@ https://leetcode.com/problems/minimum-window-substring/description/
 +-------+
 | easy  |
 +-------+
+https://leetcode.com/problems/binary-search/description # base implementation. do recursive and iterative
+https://leetcode.com/problems/fruits-into-baskets-ii/description/?envType=problem-list-v2&envId=binary-search
+https://leetcode.com/problems/intersection-of-two-arrays/description/?envType=problem-list-v2&envId=binary-search
+https://leetcode.com/problems/kth-missing-positive-number/description/?envType=problem-list-v2&envId=binary-search
+https://leetcode.com/problems/search-insert-position/description/?envType=problem-list-v2&envId=binary-search
+
 +-------+
 | med   |
 +-------+
+https://leetcode.com/problems/random-pick-with-weight/description/?envType=problem-list-v2&envId=binary-search
+https://leetcode.com/problems/koko-eating-bananas/description/?envType=problem-list-v2&envId=binary-search
+https://leetcode.com/problems/find-peak-element/description/?envType=problem-list-v2&envId=binary-search
+https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/?envType=problem-list-v2&envId=binary-search
+https://leetcode.com/problems/search-in-rotated-sorted-array/description/?envType=problem-list-v2&envId=binary-search
+
 +-------+
 | hard  |
 +-------+
+https://leetcode.com/problems/median-of-two-sorted-arrays/description/?envType=problem-list-v2&envId=binary-search
 
 ##################################################
 # dynamic programming
