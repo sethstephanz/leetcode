@@ -12,3 +12,6 @@ prefix sum
 # to build:
 build a boilerplate char converter (for questions where
 you have to rotate characters but have to manage rollover, etc.)
+
+sort lexicographically
+- tuples, coordinates
