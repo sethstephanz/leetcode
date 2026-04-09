@@ -5,6 +5,7 @@ from collections import defaultdict, Counter, deque
 import heapq
 import itertools
 import math
+import linked_lists
 from bisect import bisect_left, insort
 
 """
@@ -14,6 +15,7 @@ Defs:
 TODO:
 Pattern:
 Strat:
+Notes:
 Examples:
 """
 
